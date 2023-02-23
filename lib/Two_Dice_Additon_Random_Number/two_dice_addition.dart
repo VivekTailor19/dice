@@ -75,10 +75,10 @@ class _Two_Dice_AdditionState extends State<Two_Dice_Addition> {
             SizedBox(height: 20,),
             Container(
               height: 50,
-              width: 400,
+              width: 420,
               alignment: Alignment.center,
               decoration: BoxDecoration(color: Colors.limeAccent,borderRadius: BorderRadius.all(Radius.circular(20))),
-              child: Text("Additon of Both Matrix Number is  ${add}"),
+              child: Text("Additon of Both Matrix Number is  ${add}",style: TextStyle(fontSize: 20)),
             )
 
           ],
