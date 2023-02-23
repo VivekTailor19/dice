@@ -10,15 +10,14 @@ class Two_Dice_Addition extends StatefulWidget {
   State<Two_Dice_Addition> createState() => _Two_Dice_AdditionState();
 }
 List photo = [
-
   "assets/Images/dice(1).png",
   "assets/Images/dice(2).png",
   "assets/Images/dice(3).png",
   "assets/Images/dice(4).png",
   "assets/Images/dice(5).png",
   "assets/Images/dice(6).png",
-
 ];
+
 int i = 0;
 int j = 0;
 int add = 0;
